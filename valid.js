@@ -1,7 +1,7 @@
 // valid parenthesis.
 // Given a string s containing just the characters '(', ')', '{', '}', '[' and ']', determine if the input string is valid.
 
-isValid = function (s) {
+isValid = (s) => {
   let stack = [];
   let map = {
     "(": ")",
@@ -24,4 +24,4 @@ isValid = function (s) {
   return true;
 };
 
-console.log(isValid("[)"));
+console.log(isValid("[]"));

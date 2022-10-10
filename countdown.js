@@ -6,3 +6,13 @@ countdown = () => {
 };
 
 countdown();
+
+let earl = {
+  name: "Earl",
+  age: 30,
+  height: "5'10",
+  weight: 180,
+  favoriteNumbers: [69, 237, 420],
+};
+
+console.log(earl.favoriteNumbers[1]);
